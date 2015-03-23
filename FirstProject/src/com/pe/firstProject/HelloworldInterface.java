@@ -1,6 +1,6 @@
 package com.pe.firstProject;
 
-import com.pe.util.P;
+import com.pe.util.Imprime;
 
 public class HelloworldInterface implements simplyInterface{
 	
@@ -8,7 +8,7 @@ public class HelloworldInterface implements simplyInterface{
 		
 		HelloworldInterface hw = new HelloworldInterface();
 		 
-		P.rintln(hw.getMessage());
+		Imprime.linea(hw.getMessage());
 		
 	}
 

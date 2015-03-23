@@ -1,6 +1,6 @@
 package com.pe.firstProject;
 
-import com.pe.util.P;
+import com.pe.util.Imprime;
 
 public class HelloworldBean {
 
@@ -14,7 +14,7 @@ public class HelloworldBean {
 	public static void main(String[] args) {
 
 		HelloworldBean hw = new HelloworldBean();
-		P.rintln(hw.getMessage());
+		Imprime.linea(hw.getMessage());
 
 	}
 
