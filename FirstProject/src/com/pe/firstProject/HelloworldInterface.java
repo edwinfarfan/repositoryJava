@@ -2,7 +2,7 @@ package com.pe.firstProject;
 
 import com.pe.util.Imprime;
 
-public class HelloworldInterface implements simplyInterface{
+public class HelloworldInterface implements SimplyInterface{
 	
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class HelloworldInterface implements simplyInterface{
 }
 
 
-interface simplyInterface {
+interface SimplyInterface {
 	
 	String message="Hello World!!!";
 	

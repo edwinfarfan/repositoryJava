@@ -13,7 +13,7 @@ public class ListExample {
 		System.out.println(list);
 		
 		Collections.sort(list);
-		System.out.println("Ordenando la lista.... ");
+		System.out.println("\nOrdenando la lista.... ");
 		System.out.println(list);
 
 		System.out.println("2: " + list.get(2));
@@ -49,6 +49,7 @@ public class ListExample {
 		list.add("Jhonny");
 		list.add("Elsa");
 		list.add("Clara");
+		//list.add(new Integer(100));
 		return list;
 	}
 }
